@@ -1,7 +1,7 @@
 const nameList = [
     {
-        name:"Violet",
-        lastname: "Cannon"
+        name:"Juana",
+        lastname: "Solano"
     },
     {
         name:"Nancy",
@@ -11,6 +11,6 @@ const nameList = [
 
 const fullnames = nameList.map(function(nameList){
     return `${nameList.name} ${nameList.lastname}`
-});
+})
 
 console.log(fullnames);
